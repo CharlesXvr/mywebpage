@@ -229,7 +229,7 @@
 
 @media only screen and (min-width:320px) and (max-width:760px) {
     #hero {
-        width: fit-content;
+        width: 100%;
         padding-top: 4rem;
         border-radius: 50% 200%  50% 200% / 120px;
     }

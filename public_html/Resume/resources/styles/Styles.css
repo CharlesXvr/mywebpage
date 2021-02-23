@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 html {
     font-size: 62.5%;
@@ -18,13 +19,11 @@ body {
  .cardtitle {
     font-size: 1.5vw;
     color: #fff;
-    font-family: 'Lato', sans-serif;
- }
+    font-family: 'Roboto', sans-serif; }
  a, h1, h2, h3, h4, p {
     font-size: 1vw;
     text-indent: 1rem;
-    font-family: 'Lato', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;}
 li {
     font-size: 1vw;
 }
@@ -40,6 +39,7 @@ li {
 }
 .subtitle {
     font-size: 1vw;
+    padding: .5rem;
 }
 
 .cols {
@@ -75,13 +75,14 @@ li {
 }
 .contact-item {
     margin: 1vw;
-    padding: .5vw;
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .contact-item .icon img {
     width: 2vw;
 }
-.education-item  {
+.education-item {
     padding: 1rem 0;
 }
 .education-item .title {

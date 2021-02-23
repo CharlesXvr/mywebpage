@@ -7,7 +7,7 @@ const newCard = document.createElement('div')
 newCard.className = 'card';
 
 const newTitleCard = document.createElement('h2');
-newTitleCard.textContent = '¿Qué ofrecemos?';
+newTitleCard.textContent = '¿Qué Ofrezco?';
 newTitleCard.className = 'section-title';
 
 const infoArticle = document.createElement('article');

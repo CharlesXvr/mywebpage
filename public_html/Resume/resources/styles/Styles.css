@@ -57,7 +57,9 @@ li {
     padding: 2vw 2vw;
     background-color: #e0e0e0;
 }
-
+.personal-info p {
+    margin: 1rem 0;
+}
 .image-field {
     width: 100%;
     height:fit-content;

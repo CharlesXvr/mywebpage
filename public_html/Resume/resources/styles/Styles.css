@@ -72,7 +72,6 @@ li {
     max-height: 20%;
     border-radius: 20%;
     box-shadow:  0 0 1vw #424242;
-    transform: rotate(90deg);
 }
 .contact-item {
     margin: 1vw;

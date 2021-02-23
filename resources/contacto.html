@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="styles/styles-main.css">
+        <link rel="stylesheet" href="styles/contact/styles.css">
+        <script src="script/navbar.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav-menu">
+                <div class="nav-left">
+                    <ul>
+                        <li><a class="" href="index.html">Inicio</a></li>
+                        <li>
+                            <a href="#">Blog
+                                <div class="arrow down"></div>
+                            </a>
+                            <ul>
+                                <li><a href="#">Guias</a></li>
+                                <li><a href="#">Informatica</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="current" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="index.html">FIX'NDTECH</a>
+                    <div href="#" class="container-nav hamburguer" onclick="rotateBarNav(this); displayMenu();">
+                        <div class="bc-pin bar1"></div>
+                        <div class="bc-violet bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <div class="contact container">
+                    <h2 class="section-title">CONTACTO</h2>
+                    <div class="social-media">
+                        <h3 class="subtitle">Redes Sociales</h3>
+                        <div class="icons">
+                            <a href="#">
+                                <img src="resources/icons/instagram.png" alt="instagram icon">
+                            </a>
+                            <a href="https://www.linkedin.com/in/carlos-olivera-85650717b/" target="_blank">
+                                <img src="resources/icons/linkedin.png" alt="linkedin icon">
+                            </a>
+                            <a href="https://github.com/CharlesXvr?tab=repositories" target="_blank">
+                                <img src="resources/icons/github.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <a href="Resume/index.html">  
+                            <input class="button" type="button" value="Curriculum Vitae">
+                        </a>
+                    </div>
+                    <div class="contact-form">
+                        <form action="POST" name="contact" data-netlify="true" netlify-honeyport="bot-field" id="contact-form">
+                            <p class="hidden">
+                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                            </p>
+                            <p>
+                                <label for="name">Nombre <span class="required">*</span></label>
+                                <input type="text" name="name" id="name" required>
+                            </p>
+                            <p>
+                                <label for="affair">Asunto <span class="required">*</span></label>
+                                <input type="text" name="affair" id="affair" required>
+                            </p>
+                            <p class="block">
+                                <label for="telephone">Telèfono <span class="required">*</span></label>
+                                <input type="tel" name="telephone" id="telephone" required>
+                            </p>
+                            <p class="block">
+                                <label for="message">Mensaje <span class="required">*</span></label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            </p>
+                            <p class="block">
+                            <div class="field">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                            <button type="submit" value="submit">Enviar</button>
+                            </p>
+                            <div class="disclaimer">
+                                <p>*Rellenar estos campos es obligatorio</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="cols">
+                <nav class="footer-nav">
+                    <div class="title">
+                        <p>Links</p>
+                    </div>
+
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Guias</a>
+                                </li>
+                                <li>
+                                    <a href="#">Informatica</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <a href="index.html">Supptech Computer</a>
+                </div>
+            </div>
+            <div class="disclaimer">
+                <p class="end">Copyright &copy; 2021. Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </body>
+</html>

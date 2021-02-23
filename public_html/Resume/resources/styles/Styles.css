@@ -178,23 +178,33 @@ li {
     #col-1 {
         width: 50%;
     }
-    .contact {
-        margin: 1rem 0 1rem 0;
-    }
-    .contact-item {
-        padding: 1rem 0 1rem 0;
-    }
     .image-field img{
         max-width: 50vw;
         height: 20rem;
         max-height: 80rem;
     }
+
+    .contact-item {
+        padding: .5rem 0rem;
+    }
+
     .contact-item .icon img {
         width: 1.5rem;
+    }
+    .education-items {
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .education-item .subtitle {
+        text-indent: .5rem;
+        font-size: .9rem;
+        margin: 0;
+        padding: .5rem 0;
     }
     .education-item .icon img{
         width: 3rem;
     }
+
     #col-2 {
         width: 50%;
         margin: 0;

@@ -101,7 +101,8 @@ a:hover .arrow {
     border-bottom: solid 1rem  #880e4f;
     border-radius: 4rem;
     transition: .2s ease-in;
-    letter-spacing: .4rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 .section-title:hover {
     border-bottom: solid .6rem #ff3d00;
